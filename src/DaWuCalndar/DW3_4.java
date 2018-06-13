@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class DW3_4 implements DataProcessing 
 {
-	public static double D1,D2,D3,r,l,t,ny=0;
+	public static double D1,D2,D3,r,l,t,ny;
 	public double g = 9.8;
 	public double R = 0.05;
 	Scanner s = new Scanner(System.in);

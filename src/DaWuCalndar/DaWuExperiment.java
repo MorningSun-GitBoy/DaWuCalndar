@@ -9,7 +9,7 @@ public class DaWuExperiment
 	public static boolean If = true;
 	public static void main (String[] sh)
 	{
-		DataProcessing dp = new DW3_2();
+		DataProcessing dp = new DW3_1();
 		while(If)
 		{
 			If = dp.DataCalndar(x,If);

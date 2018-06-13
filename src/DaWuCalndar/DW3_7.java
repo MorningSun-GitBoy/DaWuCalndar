@@ -18,9 +18,12 @@ public class DW3_7 implements DataProcessing
 		{
 		 System.out.println("«Î ‰»Îlx");
 		 double lX = s.nextDouble();
+		 System.out.println("«Î ‰»Ît");
 		 t = s.nextDouble();
 		 Es = 1.0186-39.94*0.0000001*(t-20)-0.929*0.0000001*Math.pow(t-20, 2)+0.0090*0.0000001*Math.pow(t-20, 3);
 		 Ex = Es*lS/lX;
+		 System.out.println(Es);
+		 System.out.println(Ex);
 		 x.add(Ex);
 		}
 		return If;
